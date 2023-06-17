@@ -1,7 +1,7 @@
 ---
-title: "First post"
+title: "on layout and responsiveness"
 description: "Lorem ipsum dolor sit amet"
-pubDate: "Jul 08 2022"
+pubDate: "Jun 17 2023"
 heroImage: "/placeholder-hero.jpg"
 ---
 

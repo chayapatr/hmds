@@ -1,7 +1,7 @@
 ---
-title: "Second post"
+title: "on accessibility"
 description: "Lorem ipsum dolor sit amet"
-pubDate: "Jul 22 2022"
+pubDate: "Jun 17 2023"
 heroImage: "/placeholder-hero.jpg"
 ---
 

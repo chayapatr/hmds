@@ -1,7 +1,7 @@
 ---
-title: "Third post"
+title: "on early implemenetation approach(es)"
 description: "Lorem ipsum dolor sit amet"
-pubDate: "Jul 15 2022"
+pubDate: "Jun 17 2023"
 heroImage: "/placeholder-hero.jpg"
 ---
 
