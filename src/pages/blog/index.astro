@@ -22,15 +22,15 @@ const posts = (await getCollection("blog")).sort(
 			}
 			ul li {
 				display: flex;
-				@apply text-blue-600;
+				@apply text-neutral-800;
 			}
 			ul li :global(time) {
 				flex: 0 0 130px;
 				font-style: italic;
 				color: #595959;
 			}
-			ul li a:visited {
-				@apply text-indigo-600;
+			ul li a:hover {
+				@apply text-blue-600;
 			}
 		</style>
 	</head>
@@ -38,10 +38,10 @@ const posts = (await getCollection("blog")).sort(
 		<Header />
 		<main>
 			<section>
-				<ul>
+				<ul class="flex flex-col gap-[0.15rem] lg:gap-1">
 					{
 						posts.map((post) => (
-							<li>
+							<li class="lg:text-lg">
 								<FormattedDate date={post.data.pubDate} />
 								<a href={`/hmds/blog/${post.slug}/`}>
 									{post.data.title}

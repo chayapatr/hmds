@@ -4,22 +4,71 @@
     "type": "split",
     "children": [
       {
-        "id": "2505e81924261e50",
+        "id": "0536e2f1a0a1b607",
         "type": "tabs",
         "children": [
           {
-            "id": "de91ea0900877ec6",
+            "id": "cdc477091f807894",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DailyNotes/2023-6-16.md",
+                "file": "implementation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fb48a8e829f9d12f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "adoption.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "86cd2087d90dad7d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "layout.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e4c4712d880cb820",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "whyandhow.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cc5a58aedc51f5a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "whyandhow.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -101,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "DailyNotes/2023-6-16.md",
+                "file": "whyandhow.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "DailyNotes/2023-6-16.md",
+                "file": "whyandhow.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "DailyNotes/2023-6-16.md"
+                "file": "whyandhow.md"
               }
             }
           },
@@ -162,7 +211,7 @@
             }
           },
           {
-            "id": "bd54e7f5dc142833",
+            "id": "881f2430107c6a9a",
             "type": "leaf",
             "state": {
               "type": "smart-connections-view",
@@ -170,7 +219,7 @@
             }
           },
           {
-            "id": "ed75e84e94ed17c2",
+            "id": "df1bc62570304789",
             "type": "leaf",
             "state": {
               "type": "smart-connections-chat-view",
@@ -182,7 +231,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 495.5
+    "width": 495.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,8 +247,15 @@
       "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false
     }
   },
-  "active": "ed75e84e94ed17c2",
+  "active": "cc5a58aedc51f5a9",
   "lastOpenFiles": [
+    "layout.md",
+    "implementation.md",
+    "philosophy.md",
+    "Principles.md",
+    "accessibility.md",
+    "adoption.md",
+    "whyandhow.md",
     "DailyNotes/2023-6-15.md",
     "DailyNotes/2023-6-16.md",
     "DailyNotes/2023-6-14.md",
@@ -218,16 +275,9 @@
     "Bangkok Flood 2023.md",
     "Award System.md",
     "Appearances and Presentations.md",
-    "3 May - University Meeting 3 May.md",
-    "VS Code Day 2023.md",
-    "University Meeting 3 May.md",
-    "TEDxUTCC Script.md",
-    "TEA Interpreter.md",
-    "Stupid Hackathon Thailand.md",
     "DumpsterFire/exploring behaviors and collaborative mapping through mindstorms robots.pdf",
     "DumpsterFire/Cross-lingual Knowledge Linking Across Wiki Knowledge Bases.pdf",
     "DumpsterFire/a constructism-based integrated learning framework.pdf",
-    "DailyNotes/2023-6-8.md",
     "DumpsterFire/Hackerspace Tropes.pdf",
     "DailyNotes",
     "DumpsterFire/Curious Construction Kit.pdf",
