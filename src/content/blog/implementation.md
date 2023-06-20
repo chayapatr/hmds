@@ -49,10 +49,14 @@ Mitosis เป็น library ที่ถูกสร้างโดย BuilderI
 
 ```html
 <!-- Tailwind -->
-<button type="button" class="px-2 py-1 text-white rounded-md bg-red-600">Danger</button>
+<button type="button" class="px-2 py-1 text-white rounded-md bg-red-600">
+	Danger
+</button>
 
 <!-- Bootstrap -->
-<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-danger">
+	Danger
+</button>
 ```
 
 แน่นอนว่าระบบของ Tailwind ย่อมมีความ customizable สูงกว่ามาก ซึ่งแลกมากับความยาวและความหลวมของข้อบังคับในการกำหนด styling (ซึ่งตรงกับจุดประสงค์ของ library ตั้งแต่แรกที่ไม่ได้ถูกออกแบบมาเพื่อสร้าง Design System แต่เป็นวิธีการ tackle กับการเขียน CSS เท่านั้น) ตรงกันข้ามกับ Bootstrap ที่แลกความ customizable กับรูปแบบแนวทางที่ชัดเจนและรัดกุมมากกว่า
