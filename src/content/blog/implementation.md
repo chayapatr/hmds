@@ -1,5 +1,5 @@
 ---
-title: "On implementation approaches"
+title: "Implementation Approaches"
 description: "How to implement the HACKTH Modular Design System?"
 pubDate: "Jun 19 2023"
 updatedDate: "Jun 20 2023"

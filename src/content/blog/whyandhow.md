@@ -1,5 +1,5 @@
 ---
-title: "Government digital service ecosystem: why and how?"
+title: "Government Digital Service Ecosystem: Why and How?"
 description: "Lorem ipsum dolor sit amet"
 pubDate: "Jun 17 2023"
 heroImage: "/placeholder-hero.jpg"
@@ -15,7 +15,7 @@ heroImage: "/placeholder-hero.jpg"
 # รูปแบบโครงสร้างของ Government Digital Service
 [**Towards a taxonomy of government webportals**](https://doi.org/10.1145/3326365.3326368) เป็น conference paper ที่ถูกนำเสนอในงาน ACM ICEGOV '19 ที่วิเคราะห์โครงสร้างของ Web Portal ของรัฐบาล 5 ประเทศ (**remark**: ใน paper นี้มองว่า GOV.UK เป็น portal ของรัฐบาลอังกฤษ)
 
-# Review by Countries / มาตรการบังคับ
+# International Case Studies & Regulations
 ## สหรัฐอเมริกา
 - usa.gov
 

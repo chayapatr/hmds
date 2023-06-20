@@ -1,5 +1,5 @@
 ---
-title: "Suggestions about core philosophies and methodologies"
+title: "Suggestions regarding Core Philosophies and Methodologies"
 description: "Lorem ipsum dolor sit amet"
 pubDate: "Jun 17 2023"
 heroImage: "/placeholder-hero.jpg"
