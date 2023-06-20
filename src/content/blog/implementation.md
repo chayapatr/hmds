@@ -102,3 +102,24 @@ DSFR เป็น Design System ที่ถูกสร้างขึ้นโ
 Web: [Singapore Government Design System](https://www.designsystem.tech.gov.sg/)
 Github: [GovTechSG/sgds](https://github.com/GovTechSG/sgds/)
 
+ระบบ SGDS ถูกสร้างขึ้นโดย [Government Technology Agency](https://tech.gov.sg) มีลักษณะเป็น class-based โดย[พัฒนาต่อยอดจาก Bootstrap](https://github.com/GovTechSG/sgds/tree/v2) ทำให้ class มีชื่อและลักษณะการเขียนที่เหมือน/คล้ายคลึงกับ Bootstrap ค่อนข้างมาก ลักษณะของ class ไม่มี prefix แต่มีการเพิ่ม class sgds เป็น default style แทน นอกจาก Bootstrap class แล้ว มีบาง component เช่น Official Government Banner ที่มี[การใช้ template web component เพิ่มเข้ามา](https://www.designsystem.tech.gov.sg/components/official-government-banner)
+
+```html
+<!-- Official Government Banner --->
+<head>
+    <script
+        type="module"
+        src="https://cdn.jsdelivr.net/npm/@govtechsg/sgds-web-component/Masthead/index.js">
+    </script>
+</head>
+<body>
+    <sgds-masthead></sgds-masthead>
+</body>
+
+<!-- Button --->
+<button type="button" class="btn btn-primary sgds">Default</button>
+```
+
+นอกเหนือจาก class-based component SDGS ได้ถูก implement เป็น [react component library](https://github.com/GovTechSG/sgds-govtech-react) แยก โดยประยุกต์ pattern จาก [react-bootstrap](https://react-bootstrap.github.io/) โดย component ของ sgds-govtech-react มีลักษณะเป็น unstyled component ที่ดึง style จาก library sgds อีกทีหนึ่ง
+
+**Remark**: ระบบ SGDS ถูกพบเห็นได้บ่อยจากการถูกนำไป implement ใน [IsomerCMS](https://www.isomer.gov.sg/) แต่ไม่ได้ถูกบังคับใช้ในภาคใหญ่ สังเกตได้จากที่เว็บไซต์หลักของหน่วยงานรัฐบาลสิงคโปร์ไม่ได้ comply ตามมาตรฐานของ SDGS
