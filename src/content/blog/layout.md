@@ -1,5 +1,5 @@
 ---
-title: "on layout and responsiveness"
+title: "On layout design and responsiveness"
 description: "Lorem ipsum dolor sit amet"
 pubDate: "Jun 17 2023"
 heroImage: "/placeholder-hero.jpg"

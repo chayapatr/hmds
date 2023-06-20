@@ -7,9 +7,9 @@ author: "https://www.github.com/chayapatr"
 ---
 
 # Keywords
-- Design System: philosophy ของระบบการออกแบบ โดยไม่ได้คำนึงถึง implementation
-- UI/component library: Implementation ของ Design System
-- framework-agnostic: การสร้างระบบที่ไม่ผูกติดกับ framework ใด framework หนึ่ง (อ่านเพิ่มเติม: [What does it mean by Framework agnostic?](https://stackoverflow.com/questions/64725017/what-does-it-mean-by-framework-agnostic))
+- **Design System**: philosophy ของระบบการออกแบบ โดยไม่ได้คำนึงถึง implementation
+- **UI/component library**: Implementation ของ Design System
+- **framework-agnostic**: การสร้างระบบที่ไม่ผูกติดกับ framework ใด framework หนึ่ง (อ่านเพิ่มเติม: [What does it mean by Framework agnostic?](https://stackoverflow.com/questions/64725017/what-does-it-mean-by-framework-agnostic))
 
 # Backstory/Excerpts from Internal Discussions
 ทีมงาน Hack TH ตั้งใจนำ Design System มาทดลอง implement ในตัวเว็บของ Hack TH* เพื่อใช้เป็น case study และสร้างมาตรฐานการใช้งาน
@@ -122,4 +122,4 @@ DSFR เป็น Design System ที่ถูกสร้างขึ้นโ
 
 นอกเหนือจาก class-based component SDGS ได้ถูก implement เป็น [react component library](https://github.com/GovTechSG/sgds-govtech-react) แยก โดยประยุกต์ pattern จาก [react-bootstrap](https://react-bootstrap.github.io/) โดย component ของ sgds-govtech-react มีลักษณะเป็น unstyled component ที่ดึง style จาก library sgds อีกทีหนึ่ง
 
-**remark**: ระบบ SGDS ถูกพบเห็นได้บ่อยจากการถูกนำไป implement ใน [IsomerCMS](https://www.isomer.gov.sg/) แต่ไม่ได้ถูกบังคับใช้ในภาคใหญ่ สังเกตได้จากที่เว็บไซต์หลักของหน่วยงานรัฐบาลสิงคโปร์ไม่ได้ comply ตามมาตรฐานของ SDGS
+**remark**: ระบบ SGDS ถูกพบเห็นได้บ่อยจากการถูกนำไป implement ใน [Isomer](https://www.isomer.gov.sg/) ซึ่งเป็น website builder ของรัฐบาลสิงคโปร์​ แต่ไม่ได้ถูกบังคับใช้ในภาคใหญ่ สังเกตได้จากที่เว็บไซต์หลักของหน่วยงานรัฐบาลสิงคโปร์ไม่ได้ comply ตามมาตรฐานของ SDGS
