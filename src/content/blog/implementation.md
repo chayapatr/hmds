@@ -68,7 +68,7 @@ Implementation ของ GOV.UK Design System เป็น class-based ใช้
 
 นอกเหนือจาก Implementation มาตรฐาน มีทีมที่เชื่อว่าเป็น civic contributor* สร้าง [govuk-react](https://github.com/govuk-react/govuk-react) ขึ้นเป็น jsx-based component library พร้อมทำ storybook ไว้
 
-**Remark**: govuk-react ถูกเก็บ repositary ใน org ชื่อ govuk-react ต่างจาก repo อื่น ๆ ของรัฐบาลอังกฤษที่จะถูกเก็บอยู่ใน alphagov ทำให้เชื่อได้ว่าเป็น civic contributor มากกว่าทีมงานของ GOV.UK โดยตรง
+**remark**: govuk-react ถูกเก็บ repositary ใน org ชื่อ govuk-react ต่างจาก repo อื่น ๆ ของรัฐบาลอังกฤษที่จะถูกเก็บอยู่ใน alphagov ทำให้เชื่อได้ว่าเป็น civic contributor มากกว่าทีมงานของ GOV.UK โดยตรง
 
 ```html
 <button class="govuk-button" data-module="govuk-button">
@@ -94,13 +94,13 @@ DSFR เป็น Design System ที่ถูกสร้างขึ้นโ
 
 นอกเหนือจากระบบ class-based หลักแล้ว ยังได้มีการ port DSFR สำหรับใช้ใน framework/library อื่น ๆ เช่น react/vue/django โดยหน่วยงานอื่นที่ไม่ใช่ SIG อีกด้วย เช่น [codegouvfr/react-dsfr](https://github.com/codegouvfr/react-dsfr) ที่สร้างและดูแลโดย [code.gouv.fr](https://code.gouv.fr) โดยมีข้อมูลรายละเอียดในหน้า [Portages en cours](https://www.systeme-de-design.gouv.fr/utilisation-et-organisation/developpeurs/portage-en-cours) ของ documentation Système de Design de l'État
 
-### Remarks
+### remarks
 - ระบบ DSFR ได้ถูกบังคับใช้โดยข้อกฎหมาย นั่นทำให้เว็บไซต์ภายใต้ `.gouv.fr` ต้องทำตาม Design System  DSFR และได้รับการอนุมัติจาก SIG ก่อน Deploy
 - ปัญหาอย่างหนึ่งที่ผู้เขียนพบเจอในการ implement DSFR คือ ถึงแม้ component จะถูกนำไปใช้ได้อย่างเคร่งครัด แต่ layout ของแต่ละเว็บไซต์ก็มีความแตกต่างกันอย่างเห็นได้ชัด
 
 ## Singapore Government Design System (สิงคโปร์)
-Web: [Singapore Government Design System](https://www.designsystem.tech.gov.sg/)
-Github: [GovTechSG/sgds](https://github.com/GovTechSG/sgds/)
+- Web: [Singapore Government Design System](https://www.designsystem.tech.gov.sg/)
+- Github: [GovTechSG/sgds](https://github.com/GovTechSG/sgds/)
 
 ระบบ SGDS ถูกสร้างขึ้นโดย [Government Technology Agency](https://tech.gov.sg) มีลักษณะเป็น class-based โดย[พัฒนาต่อยอดจาก Bootstrap](https://github.com/GovTechSG/sgds/tree/v2) ทำให้ class มีชื่อและลักษณะการเขียนที่เหมือน/คล้ายคลึงกับ Bootstrap ค่อนข้างมาก ลักษณะของ class ไม่มี prefix แต่มีการเพิ่ม class sgds เป็น default style แทน นอกจาก Bootstrap class แล้ว มีบาง component เช่น Official Government Banner ที่มี[การใช้ template web component เพิ่มเข้ามา](https://www.designsystem.tech.gov.sg/components/official-government-banner)
 
@@ -122,4 +122,4 @@ Github: [GovTechSG/sgds](https://github.com/GovTechSG/sgds/)
 
 นอกเหนือจาก class-based component SDGS ได้ถูก implement เป็น [react component library](https://github.com/GovTechSG/sgds-govtech-react) แยก โดยประยุกต์ pattern จาก [react-bootstrap](https://react-bootstrap.github.io/) โดย component ของ sgds-govtech-react มีลักษณะเป็น unstyled component ที่ดึง style จาก library sgds อีกทีหนึ่ง
 
-**Remark**: ระบบ SGDS ถูกพบเห็นได้บ่อยจากการถูกนำไป implement ใน [IsomerCMS](https://www.isomer.gov.sg/) แต่ไม่ได้ถูกบังคับใช้ในภาคใหญ่ สังเกตได้จากที่เว็บไซต์หลักของหน่วยงานรัฐบาลสิงคโปร์ไม่ได้ comply ตามมาตรฐานของ SDGS
+**remark**: ระบบ SGDS ถูกพบเห็นได้บ่อยจากการถูกนำไป implement ใน [IsomerCMS](https://www.isomer.gov.sg/) แต่ไม่ได้ถูกบังคับใช้ในภาคใหญ่ สังเกตได้จากที่เว็บไซต์หลักของหน่วยงานรัฐบาลสิงคโปร์ไม่ได้ comply ตามมาตรฐานของ SDGS
