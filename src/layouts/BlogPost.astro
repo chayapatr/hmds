@@ -7,7 +7,8 @@ import FormattedDate from "../components/FormattedDate.astro";
 
 type Props = CollectionEntry<"blog">["data"];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, updatedDate, heroImage, author } =
+	Astro.props;
 ---
 
 <html lang="en">
@@ -27,11 +28,24 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
 				<h1 class="text-[2em] font-medium mt-3 mb-1 leading-tight">
 					{title}
 				</h1>
-				<FormattedDate date={pubDate} />
+				<div class="flex gap-2">
+					<FormattedDate date={pubDate} />
+					{
+						updatedDate && (
+							<div class="italic">
+								Last updated{" "}
+								<FormattedDate date={updatedDate} />
+							</div>
+						)
+					}
+				</div>
 				{
-					updatedDate && (
-						<div class="italic">
-							Last updated on <FormattedDate date={updatedDate} />
+					author && (
+						<div>
+							by{" "}
+							<a class="text-blue-600" href={author}>
+								@{author.split("/").at(-1)}
+							</a>
 						</div>
 					)
 				}

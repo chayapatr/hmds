@@ -9,7 +9,8 @@ heroImage: "/placeholder-hero.jpg"
 # Tailwind / Bootstrap
 # Google Material Design
 # Apple Human Interface Guideline
-# gov.uk Design System
 # France's FRDS
+# gov.uk Design System
+3-columns grid + page margin
 # Carbon Design System
-## The 2x Grid
+- 2x grid system

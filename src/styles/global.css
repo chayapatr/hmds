@@ -14,7 +14,7 @@ body {
   word-wrap: break-word;
   overflow-wrap: break-word;
 
-  @apply w-[100vw] mx-auto max-w-2xl px-4 sm:px-6 lg:px-8 py-4 lg:py-6 text-neutral-700 leading-normal;
+  @apply w-[100vw] mx-auto max-w-2xl px-4 sm:px-6 lg:px-8 py-2 lg:py-6 text-neutral-700 leading-normal;
 }
 
 h1,

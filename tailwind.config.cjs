@@ -23,7 +23,7 @@ module.exports = {
               color: "var(--tw-prose-headings)",
               marginTop: "0",
               marginBottm: "0.3em",
-              fontWeight: "300",
+              fontWeight: "500",
             },
             p: {
               marginTop: "0",
