@@ -1,5 +1,5 @@
 ---
-title: "A Recipe for an Ideal Navbar"
+title: "Materials for an Ideal Navbar"
 description: "i.e. how to make one"
 pubDate: "Jun 22 2023"
 author: "https://www.github.com/chayapatr"
