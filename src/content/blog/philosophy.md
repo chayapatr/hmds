@@ -1,8 +1,10 @@
 ---
-title: "Suggestions regarding Core Philosophies and Methodologies"
+title: "[🚧 WIP] Suggestions regarding Core Philosophies and Methodologies"
 description: "Lorem ipsum dolor sit amet"
 pubDate: "Jun 17 2023"
 heroImage: "/placeholder-hero.jpg"
 ---
 # Adoption of Culture
 # Atomic Design
+# Minimize the Complexity and Burden of Choice
+# No Bullshit!
